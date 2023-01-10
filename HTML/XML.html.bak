@@ -1,0 +1,81 @@
+<html lang="es">
+	<head>
+		<title>ZOYOCO</title>
+		<meta charset="utf-8"/>
+		<meta name="Author"	content="Zhouyi Chen"/>
+		<meta http-equiv="refresh" content="1;url=XML.html">
+		<meta name="Editor"	content="Notepad++"/>
+		<link rel="stylesheet" href="../Css/XML.css" type="text/css"/>
+		<link rel="stylesheet" href="../Css/Css-principal.css" type="text/css"/>
+		<link rel="stylesheet" href="../Css/COLORDEFONDO.css" type="text/css"/>
+		<link rel="icon"	type="image/ico"	href="../Imagenes/Favicon/Icono.ico"/>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="contenedor2">
+				<div class="header">
+					<div class="LogoWeb">
+						<a href="../Index.html"><img class="Favicon32x32" src="../Imagenes/Favicon/favicon-32x32.png" alt="Favicon32x32"> ZOYOCO
+						<img class="Favicon32x32" src="../Imagenes/Favicon/favicon-32x32.png" alt="Favicon32x32"></a>
+					</div>
+					<div class="Nav-Menu">
+						<div class="Dest">
+							<p>Los juegos m&aacute;s baratos que encontrar&aacute;s!!!</p>
+						</div>
+						<nav class="Menu">
+							<ul>
+								<li>
+									<a href="../Index.html">Inicio</a>
+								</li>
+								<li>
+									<a href="../Index.html">Juegos PC</a>
+										<ul>
+											<li><a href="Accion.html">Acción</a></li>
+											<li><a href="Aventura.html">Aventura</a></li>
+											<li><a href="">Carreras</a></li>
+											<li><a href="">Deporte</a></li>
+											<li><a href="">Disparos</a></li>
+											<li><a href="">Multijugador</a></li>
+										</ul>
+								</li>
+								<li>
+									<a href="XML.html">XML</a>
+								</li>
+								<li>
+									<a href="../../HTML/Registro.html">Registrarse</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="SECTION">
+				<!-- Buscador en Capa de section -->
+				<div class="Buscador">
+					<img class="INSTFCBWSPP" src="../Imagenes/CapaDeBuscar/Buscador.png" alt="Icono de buscar">
+					<label><input class="InputBuscador" type="search"  placeholder="Buscar aqui" name="Buscador"></label>
+					<a href="https://www.instagram.com/?hl=es"><img class="INSTFCBWSPP" src="../Imagenes/CapaDeBuscar/Insta.jpg"  alt="Icono de Instagram"></a>
+					<a href="https://es-es.facebook.com/"><img class="INSTFCBWSPP" src="../Imagenes/CapaDeBuscar/Fcbk.jpg"  alt="Icono de Facebook"></a>
+					<a href="https://web.whatsapp.com/"><img class="INSTFCBWSPP" src="../Imagenes/CapaDeBuscar/Whatsapp.png" alt="Icono de Whatsapp"></a>
+				</div>
+				<!-- Contenido de section -->
+				<div class="CTND_SECTION">
+					<h1>!!!SSUUPPEERR OOFFEERRTTAA¡¡¡</h1>
+					<div id="consultas">
+						<h2> CONSULTAS SOBRE LOS REQUISITOS MINIMOS DE LOS JUEGOS </h2>
+						<ul>
+							<li id="listaConsulta"><a href="XML/Consulta1/Juegos.xml" target="obj">Juegos superior de 15 Euro</a></li>
+							<li id="listaConsulta"><a href="XML/Consulta2/Juegos.xml" target="obj">Juegos soportable con Windows</a></li>
+							<li id="listaConsulta"><a href="XML/Consulta3/Juegos.xml" target="obj">Juegos soportable con Mac</a></li>
+							<li id="listaConsulta"><a href="XML/Consulta4/Juegos.xml" target="obj">Lanzamiento de juego anterior a año 2016</a></a></li>
+							<li id="listaConsulta"><a href="XML/Consulta5/Juegos.xml" target="obj">Lanzamiento de juego posterior a año 2016</a></a></li>
+						</ul>	
+					</div>
+					<div id="IframeConsulta">
+						<iframe src="XML/Consulta2/Juegos.xml" title="Consultas sobre juegos" name="obj"></iframe> 	
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

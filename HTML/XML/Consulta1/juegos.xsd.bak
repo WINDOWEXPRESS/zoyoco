@@ -1,0 +1,20 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.w3.org/2001/XMLSchema">
+	<element name="Juegos">
+		<complexType>
+			<sequence>
+				<element name="Juego" minOccurs="0" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="nombre" type="string"/>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
+<!-- 
+<complexType>
+</complexType>
+
+		-->

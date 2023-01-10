@@ -1,0 +1,26 @@
+h2{
+	color:black;
+	text-align:center;
+	font-size:35px;
+	font-family:fantasy;
+	text-shadow: 5px 5px 5px white;
+} 
+#consultas{
+	border: 2px solid blue;
+	margin: 20px auto;
+}
+/*   lista  */
+li{list-style:none;
+}
+
+li>a{
+	font-size:35px;
+	transition: color 1s;
+}
+li>a:hover{
+	color:black;
+}
+a{text-decoration:none;}
+
+	
+

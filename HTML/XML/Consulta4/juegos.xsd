@@ -1,0 +1,54 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema" >
+	<element name="Juegos">
+		<complexType>
+			<sequence>
+				<element name="Juego" minOccurs="0" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="nombre" type="string"/>
+							<element name="precio" type="float"/>
+							<element name="SSOO">
+								<complexType>
+									<sequence>
+										<element name="SO" type="string"/>
+										<element name="Procesador">
+											<complexType>
+												<simpleContent>
+													<extension base="string">
+														<attribute name="Generacion" type="string" use="required"/>
+													</extension>
+												</simpleContent>
+											</complexType>
+										</element>
+										<element name="Memoria" type="string"/>
+										<element name="Graficos">
+											<complexType>
+												<simpleContent>
+													<extension base="string">
+														<attribute name="tipoG" type="string" use="required"/>
+													</extension>
+												</simpleContent>
+											</complexType>
+										</element>
+										<element name="DirectX" type="string"/>
+										<element name="Almacenamiento" type="string"/>
+									</sequence>
+									<attribute name="tipo" type="string"/>
+								</complexType>
+							</element>
+							<element name="fechaLanzamiento">
+								<complexType>
+									<sequence>
+										<element name="anio" type="int"/>
+										<element name="mes" type="int"/>
+										<element name="dia" type="int"/>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

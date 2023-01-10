@@ -1,0 +1,29 @@
+<!------------------Formato de texto de Pagina XML------------------->
+h2{
+	color:black;
+	text-align:center;
+	font-size:351px;
+	font-family:fantasy;
+	text-shadow: 5px 5px 5px white;
+} 
+#consultas{
+	margin: 20px auto;
+}
+/*   lista  */
+li{list-style:none;
+}
+
+#listaConsulta>a{
+	font-size:35px;
+	transition: color 1s;
+}
+li>a:hover{
+	color:black;
+}
+a{text-decoration:none;}
+
+iframe{
+	width:100%;
+	height:530; 
+
+}

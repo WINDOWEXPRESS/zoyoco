@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone='no'?>
+<?xml-stylesheet type="text/xsl" href="posortableWindows.xsl"?>
+<Juegos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    xsi:noNamespaceSchemaLocation = "juegos.xsd">
+	<juego>
+		<nombre>Overcooked2</nombre>
+		<precio>12</precio>
+		<SSOO tipo="W">
+			<SO>WIN7-64 bit</SO>
+			<Procesador Generacion = "i5" >Intel i5-4590</Procesador>
+			<Memoria>4GB de RAM</Memoria>
+			<Graficos tipoG = "GTX" >GeForce GTX 650</Graficos>
+			<DirectX>Versión 11</DirectX>
+			<Almacenamiento>3GB de espacio disponible</Almacenamiento>
+		</SSOO>
+		<SSOO tipo="M">
+			<SO>OSX 10.12.6 - Sierra</SO>
+			<Procesador Generacion="i5">Intel Core i5 @2.7Ghz</Procesador>
+			<Memoria>8GB de RAM</Memoria>
+			<Graficos tipoG="GT">GeForce GT 640M 512Mb</Graficos>
+			<Almacenamiento>3GB de espacio disponible</Almacenamiento>
+		</SSOO>
+		<fechaLanzamiento>
+			<anio>2016</anio>
+			<mes>8</mes>
+			<dia>3</dia>
+		</fechaLanzamiento>	
+	</juego>
+	<juego>
+		<nombre>Brothers</nombre>
+		<precio>13.99</precio>
+		<SSOO tipo="W">
+			<SO>Windows XP SP3</SO>
+			<Procesador Generacion="i2">2.4 GHz Dual Core </Procesador>
+			<Memoria>2GB RAM</Memoria>
+			<Graficos tipoG="HD">GeForce HD 8600 </Graficos>
+			<DirectX>Versión 9.0</DirectX>
+			<Almacenamiento>2GB espacio disponible</Almacenamiento>
+		</SSOO>
+		<fechaLanzamiento>
+			<anio>2013</anio>
+			<mes>9</mes>
+			<dia>3</dia>
+		</fechaLanzamiento>	
+	</juego>
+	<juego>
+		<nombre>League of Legends</nombre>
+		<precio>99</precio>
+		<SSOO tipo="W">	
+			<SO>Windows 7</SO>
+			<Procesador Generacion="i3">
+				<modelo>Core i3-530</modelo>
+			</Procesador>
+			<Memoria>2GB RAM</Memoria>
+			<Graficos tipoG="GT">GeForce GT 9600</Graficos>
+			<DirectX>Versión 10</DirectX>
+			<Almacenamiento>16GB espacio disponible</Almacenamiento>
+		</SSOO>
+		<SSOO tipo="M">
+			<SO>MacOS 10.12 x64</SO>
+			<Procesador Generacion="i5">Intel i5-750</Procesador>
+			<Memoria>2GB de RAM</Memoria>
+			<Graficos tipoG="HD">Intel HD 4600</Graficos>
+			<Almacenamiento>12GB espacio disponible</Almacenamiento>
+		</SSOO>
+		<fechaLanzamiento>
+			<anio>2009</anio>
+			<mes>10</mes>
+			<dia>27</dia>
+		</fechaLanzamiento>	
+	</juego>
+	<juego>
+		<nombre>Minecraft</nombre>
+		<precio>23.95</precio>
+		<SSOO tipo="W">
+			<SO>Windows 7</SO>
+			<Procesador Generacion="i3">Intel i3-3210 3.2 GHz</Procesador>
+			<Memoria>4GB de RAM</Memoria>
+			<Graficos tipoG="GT">Nvidia GeForce 400</Graficos>
+			<DirectX>10</DirectX>
+			<Almacenamiento>0.1GB espacio disponible</Almacenamiento>
+		</SSOO>
+		<fechaLanzamiento>
+			<anio>2011</anio>
+			<mes>11</mes>
+			<dia>18</dia>
+		</fechaLanzamiento>	
+	</juego>
+	<juego>
+		<nombre>Watch Dogs 2</nombre>
+		<precio>59</precio>
+		<SSOO tipo="W">
+			<SO>Windows 7 SP1</SO>
+			<Procesador Generacion="i5">Intel Core i5-2400S @ 2.5 GHz </Procesador>
+			<Memoria>6GB de RAM</Memoria>
+			<Graficos tipoG="GTX">Nvidia GeForce GTX 660 (2GB)</Graficos>
+			<DirectX>10</DirectX>
+			<Almacenamiento>50GB espacio disponible</Almacenamiento>
+		</SSOO>
+		<fechaLanzamiento>
+			<anio>2014</anio>
+			<mes>5</mes>
+			<dia>27</dia>
+		</fechaLanzamiento>	
+	</juego>
+	<juego>
+		<nombre>Warzone 2100</nombre>
+		<precio>0</precio>
+		<SSOO tipo="W">
+			<SO>Windows 10</SO>
+			<Procesador Generacion="i2">Intel Core 2 GHz </Procesador>
+			<Memoria>8GB de RAM</Memoria>
+			<Graficos tipoG="GT">Nvidia  1 GB graphics </Graficos>
+			<DirectX>9.0</DirectX>
+			<Almacenamiento>2GB espacio disponible</Almacenamiento>
+		</SSOO>
+		<fechaLanzamiento>
+			<anio>1999</anio>
+			<mes>4</mes>
+			<dia>10</dia>
+		</fechaLanzamiento>	
+	</juego>
+	<juego>
+		<nombre>Halo infinity</nombre>
+		<precio>30.50</precio>
+		<SSOO tipo="W">
+			<SO>Windows 10 RS3 x64.</SO>
+			<Procesador Generacion="i5">Intel i5-4440. </Procesador>
+			<Memoria>8GB de RAM</Memoria>
+			<Graficos tipoG="GTX">Nvidia GTX 1050 Ti.</Graficos>
+			<DirectX>12</DirectX>
+			<Almacenamiento>50GB espacio disponible</Almacenamiento>
+		</SSOO>
+		<fechaLanzamiento>
+			<anio>2021</anio>
+			<mes>11</mes>
+			<dia>15</dia>
+		</fechaLanzamiento>	
+	</juego>
+	<juego>
+		<nombre>Sea of thieves</nombre>
+		<precio>59.99</precio>
+		<SSOO tipo="W">
+			<SO>Windows 10</SO>
+			<Procesador Generacion="i2">Intel Q9450 @ 2.6GHz</Procesador>
+			<Memoria>4GB de RAM</Memoria>
+			<Graficos tipoG="GTX">Nvidia GTX 650 </Graficos>
+			<DirectX>11.0</DirectX>
+			<Almacenamiento>50GB espacio disponible</Almacenamiento>
+		</SSOO>
+		<fechaLanzamiento>
+			<anio>2018</anio>
+			<mes>3</mes>
+			<dia>20</dia>
+		</fechaLanzamiento>	
+	</juego>
+	<juego>
+		<nombre>Sparta la batalla de las termopilas</nombre>
+		<precio>1</precio>
+		<SSOO tipo="W">
+			<SO>Windows XP/Vista</SO>
+			<Procesador Generacion="i1">Intel Pentium IV 2,4 GHz</Procesador>
+			<Memoria>1GB de RAM</Memoria>
+			<Graficos tipoG="GT">Nvidia Gforce 5700 </Graficos>
+			<DirectX>10.0</DirectX>
+			<Almacenamiento>4,1GB espacio disponible</Almacenamiento>
+		</SSOO>
+		<fechaLanzamiento>
+			<anio>2007</anio>
+			<mes>11</mes>
+			<dia>7</dia>
+		</fechaLanzamiento>	
+	</juego>
+</Juegos>
